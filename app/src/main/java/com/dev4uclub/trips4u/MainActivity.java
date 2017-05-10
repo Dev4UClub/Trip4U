@@ -1,4 +1,4 @@
-package com.div4uclub.trips4u;
+package com.dev4uclub.trips4u;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
