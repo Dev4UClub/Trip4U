@@ -1,6 +1,7 @@
 package com.dev4ugroup.trip4u;
 
 
+
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -10,7 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
+
 
 
 public class MainActivity extends AppCompatActivity
@@ -25,9 +26,6 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        TextView appname = (TextView) findViewById(R.id.app_name);
-//        Typeface custom_fonts = Typeface.createFromAsset(getAssets(),  "fonts/iCiel Kernel.ttf");
-//        appname.setTypeface(custom_fonts);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
