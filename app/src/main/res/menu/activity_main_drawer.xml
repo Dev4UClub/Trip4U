@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/maps"
+            android:icon="@drawable/ic_map"
+            android:title="Bản đồ" />
+        <item
+            android:id="@+id/flash"
+            android:icon="@drawable/ic_lightbulb"
+            android:title="Đèn flash" />
+        <item
+            android:id="@+id/nearGasStation"
+            android:icon="@drawable/ic_local_gas_station"
+            android:title="Cây xăng gần nhất" />
+        <item
+            android:id="@+id/nearMotel"
+            android:icon="@drawable/ic_home"
+            android:title="Nhà nghỉ gần nhất" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Cài đặt" />
+            <item
+                android:id="@+id/infomation"
+                android:icon="@drawable/ic_info"
+                android:title="Thông tin " />
+        </menu>
+    </item>
+
+</menu>
