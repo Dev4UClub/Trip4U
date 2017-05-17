@@ -18,19 +18,14 @@
             android:id="@+id/nearMotel"
             android:icon="@drawable/ic_home"
             android:title="Nhà nghỉ gần nhất" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Cài đặt" />
+        <item
+            android:id="@+id/infomation"
+            android:icon="@drawable/ic_info"
+            android:title="Thông tin " />
     </group>
-
-    <item android:title="">
-        <menu>
-            <item
-                android:id="@+id/settings"
-                android:icon="@drawable/ic_settings"
-                android:title="Cài đặt" />
-            <item
-                android:id="@+id/infomation"
-                android:icon="@drawable/ic_info"
-                android:title="Thông tin " />
-        </menu>
-    </item>
 
 </menu>
