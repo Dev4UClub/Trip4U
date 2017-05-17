@@ -1,7 +1,6 @@
 package com.dev4ugroup.trip4u;
 
 
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -27,8 +26,8 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         TextView appname = (TextView) findViewById(R.id.app_name);
-        Typeface custom_fonts = Typeface.createFromAsset(getAssets(),  "fonts/iCiel Kernel.ttf");
-        appname.setTypeface(custom_fonts);
+//        Typeface custom_fonts = Typeface.createFromAsset(getAssets(),  "fonts/iCiel Kernel.ttf");
+//        appname.setTypeface(custom_fonts);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
