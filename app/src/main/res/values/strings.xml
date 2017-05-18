@@ -3,6 +3,6 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="appbar_scrolling_view_behavior"></string>
     <string name="action_settings">Cài đặt</string>
 </resources>
