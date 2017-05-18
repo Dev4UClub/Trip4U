@@ -8,13 +8,20 @@
     tools:context="com.dev4ugroup.trip4u.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
 
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="385dp"
+        android:layout_height="520dp"
+
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintVertical_bias="1.0" />
 </android.support.constraint.ConstraintLayout>

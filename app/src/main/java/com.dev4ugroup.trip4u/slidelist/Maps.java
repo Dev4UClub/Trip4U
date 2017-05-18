@@ -1,8 +1,11 @@
 package com.dev4ugroup.trip4u.slidelist;
 
-/**
- * Created by darkp on 5/17/2017.
- */
+import android.app.Activity;
 
-public class Maps {
+
+
+
+public class Maps extends Activity{
+
+
 }
