@@ -10,8 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <meta-data android:name="com.google.android.geo.API_KEY"
                    android:value="AIzaSyA0rtspHmEiqnLxtnD8vSw275im5o2vt70"/>
+
+        <activity android:name="com.dev4ugroup.trip4u.MapsDisplay">
+
+        </activity>
 
 
         <activity
