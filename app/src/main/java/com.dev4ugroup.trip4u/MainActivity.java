@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Code setting here", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Code setting here", Snackbar.LENGTH_INDEFINITE)
                         .setAction("Action", null).show();
             }
         });
