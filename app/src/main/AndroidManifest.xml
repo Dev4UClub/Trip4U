@@ -21,7 +21,6 @@
 
         </activity>
 
-
         <activity
             android:name="com.dev4ugroup.trip4u.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
