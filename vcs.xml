@@ -34,6 +34,14 @@
           <option name="url" value="https://github.com/victorgrego/MyCalculator" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Osohm/android_quotes_display_apps/tree/master/android_gradle/RandomQuotes/RandomQuotesWidget" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Osohm/android_quotes_display_apps" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\darkp\AndroidStudioProjects" />
